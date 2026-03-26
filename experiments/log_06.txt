@@ -1,0 +1,25 @@
+=== 1. Test window details ===
+Test: Sat, hours [11, 12, 13, 14]
+
+=== 2. Historical Saturday midday comparison ===
+Saturday midday mean: 271075
+Weekday midday mean: 275113
+Ratio: 0.985
+
+=== 3. Recent vs all Saturdays ===
+  Last 1w Sat midday: mean=289587, ratio to all: 1.068
+  Last 2w Sat midday: mean=287052, ratio to all: 1.059
+  Last 4w Sat midday: mean=286789, ratio to all: 1.058
+  Last 8w Sat midday: mean=289834, ratio to all: 1.069
+
+=== 4. Per-route Saturday vs weekday ratio ===
+Mean route Sat/weekday ratio: 0.986, std: 0.061
+
+=== 5. End-of-train drift ===
+Last 3d mean: 274635
+Last 14d mean: 275184
+Overall mean: 261242
+
+=== 6. Historical context relevance (pseudo-validation) ===
+
+Results saved to /tmp/gh-issue-solver-1774506453169/experiments/results_06_test_window.json

@@ -1,0 +1,61 @@
+=== 1. Global vs within-route correlations ===
+Global correlations:
+  status_1: 0.4876
+  status_2: 0.5065
+  status_3: 0.4509
+  status_4: 0.4312
+  status_5: 0.3697
+  status_6: 0.1045
+
+Within-route correlations (mean over all routes):
+  status_1: mean=0.0814, median=0.0691
+  status_2: mean=0.0922, median=0.0826
+  status_3: mean=0.2352, median=0.2340
+  status_4: mean=0.1278, median=0.1260
+  status_5: mean=0.1410, median=0.1456
+  status_6: mean=0.0452, median=0.0520
+
+=== 2. Scale-driven analysis ===
+  status_1: global=0.4876, within=0.0814, scale_effect=0.4062
+  status_2: global=0.5065, within=0.0922, scale_effect=0.4143
+  status_3: global=0.4509, within=0.2352, scale_effect=0.2157
+  status_4: global=0.4312, within=0.1278, scale_effect=0.3034
+  status_5: global=0.3697, within=0.1410, scale_effect=0.2287
+  status_6: global=0.1045, within=0.0452, scale_effect=0.0593
+
+=== 3. Lagged status → future target ===
+Status leading target (mean within-route correlation):
+  status_1: lead_1_steps=0.0955, lead_2_steps=0.1369, lead_4_steps=0.1827, lead_8_steps=0.1182, lead_16_steps=0.0898
+  status_2: lead_1_steps=0.1392, lead_2_steps=0.2508, lead_4_steps=0.2035, lead_8_steps=0.1084, lead_16_steps=0.0792
+  status_3: lead_1_steps=0.4076, lead_2_steps=0.1635, lead_4_steps=0.0219, lead_8_steps=0.0495, lead_16_steps=0.0414
+  status_4: lead_1_steps=0.1307, lead_2_steps=0.1313, lead_4_steps=0.1256, lead_8_steps=0.1233, lead_16_steps=0.1279
+  status_5: lead_1_steps=0.1471, lead_2_steps=0.1510, lead_4_steps=0.1515, lead_8_steps=0.1524, lead_16_steps=0.1555
+  status_6: lead_1_steps=0.0459, lead_2_steps=0.0458, lead_4_steps=0.0467, lead_8_steps=0.0460, lead_16_steps=0.0474
+
+=== 4. Status as route descriptors ===
+Route-level: mean status → mean target correlation:
+  status_1: 0.9554
+  status_2: 0.9593
+  status_3: 0.9593
+  status_4: 0.7282
+  status_5: 0.6144
+  status_6: 0.1890
+
+=== 5. Status volatility as descriptor ===
+Route-level: status CV → target CV correlation:
+  status_1: 0.7042
+  status_2: 0.7990
+  status_3: 0.8562
+  status_4: 0.2986
+  status_5: 0.1663
+  status_6: 0.0211
+
+=== 6. Leading indicator analysis ===
+  status_1: concurrent=0.0795, lead-1=0.1073
+  status_2: concurrent=0.0984, lead-1=0.1580
+  status_3: concurrent=0.2392, lead-1=0.4121
+  status_4: concurrent=0.1434, lead-1=0.1454
+  status_5: concurrent=0.1571, lead-1=0.1607
+  status_6: concurrent=0.0427, lead-1=0.0426
+
+Results saved to /tmp/gh-issue-solver-1774506453169/experiments/results_08_status_analysis.json

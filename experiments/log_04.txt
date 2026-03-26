@@ -1,0 +1,35 @@
+=== 1. Weekly rolling stats ===
+Trend slope/week: 4819.70, total change: 27.6%
+
+=== 2. Per-route trend ===
+Routes with positive trend: 84.7%
+
+=== 3. Distribution shape ===
+Skewness: 2.279, Kurtosis: 43.055
+
+=== 4. Route regimes ===
+Low vol routes: 250, mean CV: 0.6604
+Mid vol routes: 500, mean CV: 0.4869
+High vol routes: 250, mean CV: 0.4110
+
+=== 5. Autocorrelation at multiple lags ===
+  30min_lag1: mean=0.4454, std=0.0455
+  1h_lag2: mean=-0.0759, std=0.0805
+  2h_lag4: mean=0.0269, std=0.0693
+  6h_lag12: mean=0.0659, std=0.0626
+  24h_lag48: mean=0.1476, std=0.0572
+  7d_lag336: mean=0.1167, std=0.0528
+
+=== 6. Target smoothness ===
+Diff variance / variance ratio: 1.1010 (random walk=2, smooth<1)
+
+=== 7. Overlapping 1h window autocorrelation analysis ===
+Lag-1 AC: 0.4454, Lag-2 AC (no overlap): -0.0759
+Overlap-induced autocorrelation: 0.5213
+
+=== SUMMARY ===
+Process type: moderately smooth process
+Lag-heavy approach useful: True
+Route-specific modeling useful: True
+
+Results saved to /tmp/gh-issue-solver-1774506453169/experiments/results_04_target_process.json

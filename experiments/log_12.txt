@@ -1,0 +1,50 @@
+=== 1. Test window matching ===
+Test: DOW=5 (Sat), hours=[11, 12, 13, 14]
+Found 13 matching Saturday midday windows
+  2025-08-02: mean=226056, total=1808449360
+  2025-08-09: mean=231101, total=1848807620
+  2025-08-16: mean=235335, total=1882676867
+  2025-08-23: mean=240140, total=1921121071
+  2025-08-30: mean=272670, total=2181362265
+  2025-09-06: mean=294214, total=2353713668
+  2025-09-13: mean=290011, total=2320091558
+  2025-09-20: mean=287554, total=2300432800
+  2025-09-27: mean=299736, total=2397887860
+  2025-10-04: mean=296932, total=2375457032
+  2025-10-11: mean=276121, total=2208970074
+  2025-10-18: mean=284516, total=2276132113
+  2025-10-25: mean=289587, total=2316693246
+
+=== 2. Cross-validation on matching Saturday windows ===
+  2025-08-02: route_mean=0.4132, route_dow_hour=0.5395
+  2025-08-09: route_mean=0.4197, route_dow_hour=0.4761
+  2025-08-16: route_mean=0.4207, route_dow_hour=0.4402
+  2025-08-23: route_mean=0.4105, route_dow_hour=0.4309
+  2025-08-30: route_mean=0.5015, route_dow_hour=0.5152
+  2025-09-06: route_mean=0.5518, route_dow_hour=0.5538
+  2025-09-13: route_mean=0.5116, route_dow_hour=0.4956
+  2025-09-20: route_mean=0.4880, route_dow_hour=0.4705
+  2025-09-27: route_mean=0.5160, route_dow_hour=0.4934
+  2025-10-04: route_mean=0.5018, route_dow_hour=0.4786
+  2025-10-11: route_mean=0.4355, route_dow_hour=0.4083
+  2025-10-18: route_mean=0.4470, route_dow_hour=0.4223
+  2025-10-25: route_mean=0.4548, route_dow_hour=0.4308
+
+=== 3. Validation approach comparison ===
+Approach A (last 8 ts): DOW=5, hours=[7, 8, 9, 10], mean_target=260947
+Approach B (last Sat):  DOW=5, hours=[11, 12, 13, 14], mean_target=289587
+
+=== 4. Metric stability analysis ===
+  Offset 0d: DOW=5, total=0.3818
+  Offset 1d: DOW=4, total=0.3785
+  Offset 2d: DOW=3, total=0.4060
+  Offset 3d: DOW=2, total=0.4292
+  Offset 7d: DOW=5, total=0.4086
+  Offset 14d: DOW=5, total=0.3888
+
+Metric std across folds: 0.0176
+
+=== 5. Validation recommendation ===
+Test is Saturday 11-14:30. Using matching DOW+hour windows gives the most realistic proxy. Multiple Saturday folds increase confidence. Generic last-8 gives temporal recency but wrong DOW/hour context.
+
+Results saved to /tmp/gh-issue-solver-1774506453169/experiments/results_12_validation_realism.json

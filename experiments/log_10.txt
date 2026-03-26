@@ -1,0 +1,40 @@
+=== Setting up validation ===
+Train: 4622000, Val: 8000
+Val timestamps: [Timestamp('2025-11-01 07:00:00'), Timestamp('2025-11-01 07:30:00'), Timestamp('2025-11-01 08:00:00'), Timestamp('2025-11-01 08:30:00'), Timestamp('2025-11-01 09:00:00'), Timestamp('2025-11-01 09:30:00'), Timestamp('2025-11-01 10:00:00'), Timestamp('2025-11-01 10:30:00')]
+
+=== 1. Baseline bias profiles ===
+
+Strategy comparison:
+Strategy                          Total     WAPE    RBias RBias_signed
+route_mean_all                   0.3818   0.3807   0.0011       0.0011
+route_same_dow                   0.3837   0.3816   0.0021      -0.0021
+blend_14d_dow                    0.3991   0.3729   0.0262       0.0262
+route_hour_mean                  0.4007   0.3713   0.0294      -0.0294
+route_dow_hour_mean              0.4092   0.3781   0.0311      -0.0311
+route_mean_7d                    0.4139   0.3688   0.0451       0.0451
+route_recent_dow_28d             0.4237   0.3763   0.0474       0.0474
+route_mean_14d                   0.4267   0.3722   0.0545       0.0545
+global_mean                      0.5118   0.5107   0.0011       0.0011
+
+=== 2. Bias direction by strategy ===
+  global_mean: over-predicts by 0.11%
+  route_mean_all: over-predicts by 0.11%
+  route_mean_7d: over-predicts by 4.51%
+  route_mean_14d: over-predicts by 5.45%
+  route_hour_mean: under-predicts by 2.94%
+  route_same_dow: under-predicts by 0.21%
+  route_dow_hour_mean: under-predicts by 3.11%
+  route_recent_dow_28d: over-predicts by 4.74%
+  blend_14d_dow: over-predicts by 2.62%
+
+=== 3. Aggregate volume estimation ===
+
+=== 4. Post-hoc bias correction effect ===
+  route_mean_all: 0.3818 → 0.3806 (correction=0.9989)
+  route_mean_14d: 0.4267 → 0.3659 (correction=0.9483)
+  route_hour_mean: 0.4007 → 0.3727 (correction=1.0303)
+  route_dow_hour_mean: 0.4092 → 0.3799 (correction=1.0321)
+
+Best baseline: route_mean_all with total=0.3818
+
+Results saved to /tmp/gh-issue-solver-1774506453169/experiments/results_10_bias_analysis.json

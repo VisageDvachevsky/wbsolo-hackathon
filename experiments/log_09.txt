@@ -1,0 +1,38 @@
+=== 1. Route contribution to total volume ===
+Top 1 route: 0.38% of volume
+Top 10 routes: 2.22%
+Top 50 routes: 9.35%
+  Route 702: mean=981152, share=0.38%
+  Route 761: mean=562154, share=0.22%
+  Route 357: mean=550538, share=0.21%
+  Route 324: mean=544176, share=0.21%
+  Route 655: mean=535781, share=0.21%
+  Route 258: mean=535482, share=0.20%
+  Route 564: mean=534777, share=0.20%
+  Route 216: mean=534321, share=0.20%
+  Route 28: mean=517344, share=0.20%
+  Route 925: mean=512389, share=0.20%
+
+=== 2. Extreme volume events ===
+p95=564384, p99=743427, p99.9=1026541
+Events above p99: 46300 (1.00%), volume share: 3.44%
+Routes with extreme events: 678
+Top 5 by count: {702: 2043, 761: 796, 324: 788, 357: 731, 258: 684}
+
+=== 3. Temporal patterns in extremes ===
+Peak extreme hour: 12, relative risk: 1.41x
+Peak extreme DOW: Wed, relative risk: 1.13x
+
+=== 4. Predictability of large volumes ===
+  Route 702: spike AC(30m)=0.645, AC(24h)=0.331, AC(7d)=0.258
+  Route 761: spike AC(30m)=0.213, AC(24h)=0.047, AC(7d)=0.052
+  Route 357: spike AC(30m)=0.242, AC(24h)=0.066, AC(7d)=0.039
+  Route 324: spike AC(30m)=0.237, AC(24h)=0.050, AC(7d)=0.060
+  Route 655: spike AC(30m)=0.219, AC(24h)=0.074, AC(7d)=0.049
+
+=== 5. WAPE sensitivity to top routes ===
+Top 10: error share=2.2%, volume share=2.2%
+Top 20: error share=3.7%, volume share=4.1%
+Top 50: error share=7.9%, volume share=9.3%
+
+Results saved to /tmp/gh-issue-solver-1774506453169/experiments/results_09_outlier_analysis.json

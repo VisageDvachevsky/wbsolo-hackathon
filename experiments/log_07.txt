@@ -1,0 +1,25 @@
+=== 1. Hour x DOW interaction ===
+Cross-DOW hourly shape std: 0.0124
+
+=== 2. Weekday vs weekend ===
+Weekday mean: 262596, Weekend mean: 257661
+Ratio: 0.981
+Profile shape difference: 0.0118
+
+=== 3. Route x hour interaction ===
+Cross-route hourly shape std: 0.0980
+
+=== 4. Route x DOW interaction ===
+Cross-route DOW shape std: 0.0200
+
+=== 5. Intraday peak/trough stability ===
+Peak hour mode: 16, std: 5.77
+Trough hour mode: 21, std: 3.21
+
+=== 6. Shape + scale approach ===
+Shape+scale model: R²=0.4045, WAPE=0.3702, RBias=0.0018
+
+=== 7. Route-specific hourly shape ===
+Route-hour-DOW model: R²=0.4269, WAPE=0.3627, RBias=0.0015
+
+Results saved to /tmp/gh-issue-solver-1774506453169/experiments/results_07_temporal_seasonality.json

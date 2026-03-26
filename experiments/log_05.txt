@@ -1,0 +1,31 @@
+=== 1. Route-level statistics ===
+Mean of route means: 261242
+CV range: 0.334 - 2.173
+
+=== 2. Volume segments ===
+  low: n=250, mean_target=131159, CV=0.660
+  mid: n=500, mean_target=256337, CV=0.487
+  high: n=250, mean_target=401134, CV=0.411
+
+=== 3. Intraday profile stability ===
+Mean intraday stability: 0.839
+Highly stable routes (>0.8): 84.5%
+
+=== 4. Weekday pattern stability ===
+Mean DOW CV: 0.0309
+
+=== 5. Recent vs historical stability ===
+  7d vs all: corr=0.9357, ratio=1.0396, drift=12.35%
+  14d vs all: corr=0.9435, ratio=1.0502, drift=11.40%
+  28d vs all: corr=0.9567, ratio=1.0515, drift=10.26%
+
+=== 6. WAPE contribution by route ===
+Top 10 routes contribute 2.5% of total WAPE error (under global mean)
+Top 50 routes: 9.3%
+
+=== 7. Segment-specific optimal strategy check ===
+  low: route_mean improves over global_mean by 52.9%
+  mid: route_mean improves over global_mean by 6.5%
+  high: route_mean improves over global_mean by 24.3%
+
+Results saved to /tmp/gh-issue-solver-1774506453169/experiments/results_05_route_segmentation.json
