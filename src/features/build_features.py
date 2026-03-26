@@ -1,9 +1,8 @@
-"""
-Main feature engineering pipeline: combines route and time features into
-a ready-to-train feature matrix.
-"""
+"""Main feature engineering pipeline."""
+
+from __future__ import annotations
+
 import pandas as pd
-import numpy as np
 
 from src.features.time_features import add_time_features
 from src.features.route_features import (
@@ -29,7 +28,7 @@ def build_feature_matrix(target_df: pd.DataFrame, history_df: pd.DataFrame) -> p
     DataFrame with all features, indexed same as target_df
     """
     # Time features
-    df = add_time_features(target_df)
+    df = add_time_features(target_df, timestamp_origin=history_df["timestamp"].min())
 
     # Route aggregates
     route_aggs = build_route_aggregates(history_df)

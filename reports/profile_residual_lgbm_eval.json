@@ -1,0 +1,29 @@
+{
+  "evaluation": [
+    {
+      "date": "2025-10-04",
+      "profile_total": 0.3539732915989606,
+      "residual_total": 0.3752806885521108,
+      "residual_cal_total": 0.40334830456502774
+    },
+    {
+      "date": "2025-10-11",
+      "profile_total": 0.4350510966752853,
+      "residual_total": 0.3870870083864219,
+      "residual_cal_total": 0.39476633069010836
+    },
+    {
+      "date": "2025-10-18",
+      "profile_total": 0.35142713020296795,
+      "residual_total": 0.3885864122220621,
+      "residual_cal_total": 0.38261894086440845
+    },
+    {
+      "date": "2025-10-25",
+      "profile_total": 0.3477557025703986,
+      "residual_total": 0.37290991277472046,
+      "residual_cal_total": 0.3989056855335744
+    }
+  ],
+  "submission_out": "submissions/profile_residual_lgbm.csv"
+}

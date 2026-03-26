@@ -1,8 +1,8 @@
-"""
-Route-level aggregate features computed from historical data.
-"""
+"""Route-level aggregate features computed from historical data."""
+
+from __future__ import annotations
+
 import pandas as pd
-import numpy as np
 
 
 def build_route_aggregates(train_df: pd.DataFrame) -> pd.DataFrame:
@@ -21,7 +21,7 @@ def build_route_aggregates(train_df: pd.DataFrame) -> pd.DataFrame:
         route_cv=lambda x: x.std() / x.mean() if x.mean() > 0 else 0,
         route_nonzero_frac=lambda x: (x > 0).mean(),
     )
-    return aggs
+    return aggs.reset_index()
 
 
 def build_route_time_aggregates(train_df: pd.DataFrame) -> pd.DataFrame:
@@ -38,7 +38,7 @@ def build_route_time_aggregates(train_df: pd.DataFrame) -> pd.DataFrame:
         route_hour_median="median",
         route_hour_std="std",
     )
-    return aggs
+    return aggs.reset_index()
 
 
 def build_route_dow_aggregates(train_df: pd.DataFrame) -> pd.DataFrame:
@@ -52,7 +52,7 @@ def build_route_dow_aggregates(train_df: pd.DataFrame) -> pd.DataFrame:
         route_dow_mean="mean",
         route_dow_median="median",
     )
-    return aggs
+    return aggs.reset_index()
 
 
 def build_route_dow_hour_aggregates(train_df: pd.DataFrame) -> pd.DataFrame:
@@ -67,7 +67,7 @@ def build_route_dow_hour_aggregates(train_df: pd.DataFrame) -> pd.DataFrame:
         route_dow_hour_mean="mean",
         route_dow_hour_median="median",
     )
-    return aggs
+    return aggs.reset_index()
 
 
 def build_route_recent_aggregates(train_df: pd.DataFrame, last_n_days: int = 7) -> pd.DataFrame:
@@ -81,4 +81,4 @@ def build_route_recent_aggregates(train_df: pd.DataFrame, last_n_days: int = 7) 
         **{f"route_mean_last{last_n_days}d": "mean",
            f"route_median_last{last_n_days}d": "median"}
     )
-    return aggs
+    return aggs.reset_index()

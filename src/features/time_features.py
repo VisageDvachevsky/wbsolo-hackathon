@@ -1,11 +1,14 @@
-"""
-Temporal feature extractors.
-"""
+"""Temporal feature extractors."""
+
+from __future__ import annotations
+
 import pandas as pd
-import numpy as np
 
 
-def add_time_features(df: pd.DataFrame) -> pd.DataFrame:
+def add_time_features(
+    df: pd.DataFrame,
+    timestamp_origin: pd.Timestamp | None = None,
+) -> pd.DataFrame:
     """Add time-based features to a DataFrame with a timestamp column."""
     out = df.copy()
     out["hour"] = out["timestamp"].dt.hour
@@ -15,7 +18,6 @@ def add_time_features(df: pd.DataFrame) -> pd.DataFrame:
     out["is_weekend"] = (out["dow"] >= 5).astype(int)
     out["day_of_month"] = out["timestamp"].dt.day
     out["week_of_year"] = out["timestamp"].dt.isocalendar().week.astype(int)
-    # Days since start of training (trend proxy)
-    min_ts = out["timestamp"].min()
-    out["days_since_start"] = (out["timestamp"] - min_ts).dt.total_seconds() / 86400
+    origin = timestamp_origin if timestamp_origin is not None else out["timestamp"].min()
+    out["days_since_start"] = (out["timestamp"] - origin).dt.total_seconds() / 86400
     return out
