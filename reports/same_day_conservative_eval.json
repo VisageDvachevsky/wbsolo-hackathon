@@ -1,0 +1,78 @@
+{
+  "config": {
+    "obs_start_hour": 7,
+    "obs_end_hour": 10,
+    "shrink_k": 2000000.0,
+    "clip_min": 0.85,
+    "clip_max": 1.15,
+    "n_windows": 6
+  },
+  "summary": {
+    "mean_profile_total": 0.365951,
+    "mean_global_total": 0.360553,
+    "mean_segment_total": 0.360578,
+    "mean_route_total": 0.359558
+  },
+  "rows": [
+    {
+      "date": "2025-09-20",
+      "profile_total": 0.343374,
+      "global_total": 0.339284,
+      "segment_total": 0.33935,
+      "route_total": 0.341614,
+      "global_mult": 0.996217,
+      "segment_default": 0.996217,
+      "route_default": 0.996217
+    },
+    {
+      "date": "2025-09-27",
+      "profile_total": 0.364126,
+      "global_total": 0.362236,
+      "segment_total": 0.362263,
+      "route_total": 0.371203,
+      "global_mult": 1.001985,
+      "segment_default": 1.001985,
+      "route_default": 1.001985
+    },
+    {
+      "date": "2025-10-04",
+      "profile_total": 0.353973,
+      "global_total": 0.371423,
+      "segment_total": 0.371426,
+      "route_total": 0.363313,
+      "global_mult": 1.030906,
+      "segment_default": 1.030906,
+      "route_default": 1.030906
+    },
+    {
+      "date": "2025-10-11",
+      "profile_total": 0.435051,
+      "global_total": 0.378829,
+      "segment_total": 0.378861,
+      "route_total": 0.366365,
+      "global_mult": 0.914786,
+      "segment_default": 0.914786,
+      "route_default": 0.914786
+    },
+    {
+      "date": "2025-10-18",
+      "profile_total": 0.351427,
+      "global_total": 0.352769,
+      "segment_total": 0.352757,
+      "route_total": 0.358967,
+      "global_mult": 0.977144,
+      "segment_default": 0.977144,
+      "route_default": 0.977144
+    },
+    {
+      "date": "2025-10-25",
+      "profile_total": 0.347756,
+      "global_total": 0.358776,
+      "segment_total": 0.358809,
+      "route_total": 0.355888,
+      "global_mult": 1.026604,
+      "segment_default": 1.026604,
+      "route_default": 1.026604
+    }
+  ]
+}
