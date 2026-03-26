@@ -1,0 +1,370 @@
+{
+  "best": {
+    "config": {
+      "scale_days": 14,
+      "scale_mode": "mean_day",
+      "shrink_k": 60.0,
+      "calibration_saturdays": 4
+    },
+    "profile_x_scale_mean_total": 0.365951,
+    "window_profile_mean_total": 0.374614,
+    "window_profile_cal_mean_total": 0.37685,
+    "rows": [
+      {
+        "date": "2025-09-20",
+        "profile_x_scale_total": 0.343374,
+        "window_profile_total": 0.363748,
+        "window_profile_cal_total": 0.38225,
+        "window_profile_rbias": 0.023957,
+        "window_profile_cal_rbias": 0.046235
+      },
+      {
+        "date": "2025-09-27",
+        "profile_x_scale_total": 0.364126,
+        "window_profile_total": 0.341921,
+        "window_profile_cal_total": 0.38038,
+        "window_profile_rbias": 0.006179,
+        "window_profile_cal_rbias": 0.045452
+      },
+      {
+        "date": "2025-10-04",
+        "profile_x_scale_total": 0.353973,
+        "window_profile_total": 0.359554,
+        "window_profile_cal_total": 0.36194,
+        "window_profile_rbias": 0.009528,
+        "window_profile_cal_rbias": 0.01365
+      },
+      {
+        "date": "2025-10-11",
+        "profile_x_scale_total": 0.435051,
+        "window_profile_total": 0.463001,
+        "window_profile_cal_total": 0.431491,
+        "window_profile_rbias": 0.089147,
+        "window_profile_cal_rbias": 0.06315
+      },
+      {
+        "date": "2025-10-18",
+        "profile_x_scale_total": 0.351427,
+        "window_profile_total": 0.372527,
+        "window_profile_cal_total": 0.36104,
+        "window_profile_rbias": 0.029842,
+        "window_profile_cal_rbias": 0.019575
+      },
+      {
+        "date": "2025-10-25",
+        "profile_x_scale_total": 0.347756,
+        "window_profile_total": 0.346935,
+        "window_profile_cal_total": 0.343998,
+        "window_profile_rbias": 0.003499,
+        "window_profile_cal_rbias": 0.000898
+      }
+    ]
+  },
+  "top5": [
+    {
+      "config": {
+        "scale_days": 14,
+        "scale_mode": "mean_day",
+        "shrink_k": 60.0,
+        "calibration_saturdays": 4
+      },
+      "profile_x_scale_mean_total": 0.365951,
+      "window_profile_mean_total": 0.374614,
+      "window_profile_cal_mean_total": 0.37685,
+      "rows": [
+        {
+          "date": "2025-09-20",
+          "profile_x_scale_total": 0.343374,
+          "window_profile_total": 0.363748,
+          "window_profile_cal_total": 0.38225,
+          "window_profile_rbias": 0.023957,
+          "window_profile_cal_rbias": 0.046235
+        },
+        {
+          "date": "2025-09-27",
+          "profile_x_scale_total": 0.364126,
+          "window_profile_total": 0.341921,
+          "window_profile_cal_total": 0.38038,
+          "window_profile_rbias": 0.006179,
+          "window_profile_cal_rbias": 0.045452
+        },
+        {
+          "date": "2025-10-04",
+          "profile_x_scale_total": 0.353973,
+          "window_profile_total": 0.359554,
+          "window_profile_cal_total": 0.36194,
+          "window_profile_rbias": 0.009528,
+          "window_profile_cal_rbias": 0.01365
+        },
+        {
+          "date": "2025-10-11",
+          "profile_x_scale_total": 0.435051,
+          "window_profile_total": 0.463001,
+          "window_profile_cal_total": 0.431491,
+          "window_profile_rbias": 0.089147,
+          "window_profile_cal_rbias": 0.06315
+        },
+        {
+          "date": "2025-10-18",
+          "profile_x_scale_total": 0.351427,
+          "window_profile_total": 0.372527,
+          "window_profile_cal_total": 0.36104,
+          "window_profile_rbias": 0.029842,
+          "window_profile_cal_rbias": 0.019575
+        },
+        {
+          "date": "2025-10-25",
+          "profile_x_scale_total": 0.347756,
+          "window_profile_total": 0.346935,
+          "window_profile_cal_total": 0.343998,
+          "window_profile_rbias": 0.003499,
+          "window_profile_cal_rbias": 0.000898
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale_days": 14,
+        "scale_mode": "mean_day",
+        "shrink_k": 30.0,
+        "calibration_saturdays": 4
+      },
+      "profile_x_scale_mean_total": 0.365951,
+      "window_profile_mean_total": 0.37522,
+      "window_profile_cal_mean_total": 0.377403,
+      "rows": [
+        {
+          "date": "2025-09-20",
+          "profile_x_scale_total": 0.343374,
+          "window_profile_total": 0.364847,
+          "window_profile_cal_total": 0.383256,
+          "window_profile_rbias": 0.023957,
+          "window_profile_cal_rbias": 0.046235
+        },
+        {
+          "date": "2025-09-27",
+          "profile_x_scale_total": 0.364126,
+          "window_profile_total": 0.342485,
+          "window_profile_cal_total": 0.380854,
+          "window_profile_rbias": 0.006179,
+          "window_profile_cal_rbias": 0.045452
+        },
+        {
+          "date": "2025-10-04",
+          "profile_x_scale_total": 0.353973,
+          "window_profile_total": 0.360448,
+          "window_profile_cal_total": 0.362812,
+          "window_profile_rbias": 0.009528,
+          "window_profile_cal_rbias": 0.01365
+        },
+        {
+          "date": "2025-10-11",
+          "profile_x_scale_total": 0.435051,
+          "window_profile_total": 0.463363,
+          "window_profile_cal_total": 0.431772,
+          "window_profile_rbias": 0.089147,
+          "window_profile_cal_rbias": 0.06315
+        },
+        {
+          "date": "2025-10-18",
+          "profile_x_scale_total": 0.351427,
+          "window_profile_total": 0.372972,
+          "window_profile_cal_total": 0.361455,
+          "window_profile_rbias": 0.029842,
+          "window_profile_cal_rbias": 0.019575
+        },
+        {
+          "date": "2025-10-25",
+          "profile_x_scale_total": 0.347756,
+          "window_profile_total": 0.347207,
+          "window_profile_cal_total": 0.34427,
+          "window_profile_rbias": 0.003499,
+          "window_profile_cal_rbias": 0.000898
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale_days": 14,
+        "scale_mode": "median_day",
+        "shrink_k": 60.0,
+        "calibration_saturdays": 4
+      },
+      "profile_x_scale_mean_total": 0.365951,
+      "window_profile_mean_total": 0.369313,
+      "window_profile_cal_mean_total": 0.377521,
+      "rows": [
+        {
+          "date": "2025-09-20",
+          "profile_x_scale_total": 0.343374,
+          "window_profile_total": 0.352735,
+          "window_profile_cal_total": 0.382696,
+          "window_profile_rbias": 0.013684,
+          "window_profile_cal_rbias": 0.046235
+        },
+        {
+          "date": "2025-09-27",
+          "profile_x_scale_total": 0.364126,
+          "window_profile_total": 0.353557,
+          "window_profile_cal_total": 0.381464,
+          "window_profile_rbias": 0.017102,
+          "window_profile_cal_rbias": 0.045452
+        },
+        {
+          "date": "2025-10-04",
+          "profile_x_scale_total": 0.353973,
+          "window_profile_total": 0.351364,
+          "window_profile_cal_total": 0.362532,
+          "window_profile_rbias": 0.001645,
+          "window_profile_cal_rbias": 0.01365
+        },
+        {
+          "date": "2025-10-11",
+          "profile_x_scale_total": 0.435051,
+          "window_profile_total": 0.449428,
+          "window_profile_cal_total": 0.432281,
+          "window_profile_rbias": 0.077329,
+          "window_profile_cal_rbias": 0.06315
+        },
+        {
+          "date": "2025-10-18",
+          "profile_x_scale_total": 0.351427,
+          "window_profile_total": 0.358274,
+          "window_profile_cal_total": 0.361112,
+          "window_profile_rbias": 0.017031,
+          "window_profile_cal_rbias": 0.019575
+        },
+        {
+          "date": "2025-10-25",
+          "profile_x_scale_total": 0.347756,
+          "window_profile_total": 0.35052,
+          "window_profile_cal_total": 0.34504,
+          "window_profile_rbias": 0.006806,
+          "window_profile_cal_rbias": 0.000898
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale_days": 14,
+        "scale_mode": "mean_day",
+        "shrink_k": 15.0,
+        "calibration_saturdays": 4
+      },
+      "profile_x_scale_mean_total": 0.365951,
+      "window_profile_mean_total": 0.375864,
+      "window_profile_cal_mean_total": 0.378023,
+      "rows": [
+        {
+          "date": "2025-09-20",
+          "profile_x_scale_total": 0.343374,
+          "window_profile_total": 0.366015,
+          "window_profile_cal_total": 0.384381,
+          "window_profile_rbias": 0.023957,
+          "window_profile_cal_rbias": 0.046235
+        },
+        {
+          "date": "2025-09-27",
+          "profile_x_scale_total": 0.364126,
+          "window_profile_total": 0.343148,
+          "window_profile_cal_total": 0.381468,
+          "window_profile_rbias": 0.006179,
+          "window_profile_cal_rbias": 0.045452
+        },
+        {
+          "date": "2025-10-04",
+          "profile_x_scale_total": 0.353973,
+          "window_profile_total": 0.361294,
+          "window_profile_cal_total": 0.363645,
+          "window_profile_rbias": 0.009528,
+          "window_profile_cal_rbias": 0.01365
+        },
+        {
+          "date": "2025-10-11",
+          "profile_x_scale_total": 0.435051,
+          "window_profile_total": 0.463803,
+          "window_profile_cal_total": 0.43218,
+          "window_profile_rbias": 0.089147,
+          "window_profile_cal_rbias": 0.06315
+        },
+        {
+          "date": "2025-10-18",
+          "profile_x_scale_total": 0.351427,
+          "window_profile_total": 0.373424,
+          "window_profile_cal_total": 0.361899,
+          "window_profile_rbias": 0.029842,
+          "window_profile_cal_rbias": 0.019575
+        },
+        {
+          "date": "2025-10-25",
+          "profile_x_scale_total": 0.347756,
+          "window_profile_total": 0.347501,
+          "window_profile_cal_total": 0.344565,
+          "window_profile_rbias": 0.003499,
+          "window_profile_cal_rbias": 0.000898
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale_days": 14,
+        "scale_mode": "median_day",
+        "shrink_k": 30.0,
+        "calibration_saturdays": 4
+      },
+      "profile_x_scale_mean_total": 0.365951,
+      "window_profile_mean_total": 0.369925,
+      "window_profile_cal_mean_total": 0.378117,
+      "rows": [
+        {
+          "date": "2025-09-20",
+          "profile_x_scale_total": 0.343374,
+          "window_profile_total": 0.353878,
+          "window_profile_cal_total": 0.38382,
+          "window_profile_rbias": 0.013684,
+          "window_profile_cal_rbias": 0.046235
+        },
+        {
+          "date": "2025-09-27",
+          "profile_x_scale_total": 0.364126,
+          "window_profile_total": 0.354114,
+          "window_profile_cal_total": 0.382007,
+          "window_profile_rbias": 0.017102,
+          "window_profile_cal_rbias": 0.045452
+        },
+        {
+          "date": "2025-10-04",
+          "profile_x_scale_total": 0.353973,
+          "window_profile_total": 0.352214,
+          "window_profile_cal_total": 0.363384,
+          "window_profile_rbias": 0.001645,
+          "window_profile_cal_rbias": 0.01365
+        },
+        {
+          "date": "2025-10-11",
+          "profile_x_scale_total": 0.435051,
+          "window_profile_total": 0.449838,
+          "window_profile_cal_total": 0.432635,
+          "window_profile_rbias": 0.077329,
+          "window_profile_cal_rbias": 0.06315
+        },
+        {
+          "date": "2025-10-18",
+          "profile_x_scale_total": 0.351427,
+          "window_profile_total": 0.358688,
+          "window_profile_cal_total": 0.361522,
+          "window_profile_rbias": 0.017031,
+          "window_profile_cal_rbias": 0.019575
+        },
+        {
+          "date": "2025-10-25",
+          "profile_x_scale_total": 0.347756,
+          "window_profile_total": 0.350819,
+          "window_profile_cal_total": 0.345335,
+          "window_profile_rbias": 0.006806,
+          "window_profile_cal_rbias": 0.000898
+        }
+      ]
+    }
+  ]
+}
