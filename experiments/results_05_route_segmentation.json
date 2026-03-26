@@ -1,0 +1,78 @@
+{
+  "route_stats_summary": {
+    "mean_of_means": 261242.1,
+    "std_of_means": 106257.6,
+    "min_mean": 50751.6,
+    "max_mean": 981151.8,
+    "mean_cv": 0.5113,
+    "std_cv": 0.1329,
+    "mean_zero_frac": 0.0151
+  },
+  "segment_low": {
+    "count": 250,
+    "mean_target": 131159.2,
+    "mean_cv": 0.6604,
+    "mean_zero_frac": 0.0503,
+    "target_range": "50752 - 179677"
+  },
+  "segment_mid": {
+    "count": 500,
+    "mean_target": 256337.4,
+    "mean_cv": 0.4869,
+    "mean_zero_frac": 0.0049,
+    "target_range": "180017 - 331278"
+  },
+  "segment_high": {
+    "count": 250,
+    "mean_target": 401134.4,
+    "mean_cv": 0.411,
+    "mean_zero_frac": 0.0003,
+    "target_range": "331758 - 981152"
+  },
+  "intraday_profile_stability": {
+    "mean": 0.8392,
+    "median": 0.8505,
+    "std": 0.0437,
+    "pct_highly_stable": 84.5,
+    "pct_unstable": 0.0
+  },
+  "weekday_pattern": {
+    "mean_dow_cv": 0.0309,
+    "pct_strong_dow_pattern": 0.0
+  },
+  "stability_7d_vs_all": {
+    "correlation": 0.9357,
+    "mean_ratio": 1.0396,
+    "mean_abs_pct_drift": 12.35
+  },
+  "stability_14d_vs_all": {
+    "correlation": 0.9435,
+    "mean_ratio": 1.0502,
+    "mean_abs_pct_drift": 11.4
+  },
+  "stability_28d_vs_all": {
+    "correlation": 0.9567,
+    "mean_ratio": 1.0515,
+    "mean_abs_pct_drift": 10.26
+  },
+  "wape_contribution_top10": {
+    "702": 0.56,
+    "761": 0.24,
+    "357": 0.23,
+    "324": 0.22,
+    "925": 0.22,
+    "655": 0.22,
+    "258": 0.22,
+    "564": 0.22,
+    "216": 0.21,
+    "28": 0.21
+  },
+  "wape_concentration": {
+    "top10_pct": 2.54,
+    "top50_pct": 9.32,
+    "top100_pct": 16.67
+  },
+  "route_mean_improvement_low": 52.88,
+  "route_mean_improvement_mid": 6.49,
+  "route_mean_improvement_high": 24.26
+}

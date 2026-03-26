@@ -1,0 +1,373 @@
+{
+  "matching_saturday_windows": [
+    {
+      "date": "2025-08-02",
+      "n_rows": 8000,
+      "mean_target": 226056.2,
+      "total_target": "1808449360"
+    },
+    {
+      "date": "2025-08-09",
+      "n_rows": 8000,
+      "mean_target": 231101.0,
+      "total_target": "1848807620"
+    },
+    {
+      "date": "2025-08-16",
+      "n_rows": 8000,
+      "mean_target": 235334.6,
+      "total_target": "1882676867"
+    },
+    {
+      "date": "2025-08-23",
+      "n_rows": 8000,
+      "mean_target": 240140.1,
+      "total_target": "1921121071"
+    },
+    {
+      "date": "2025-08-30",
+      "n_rows": 8000,
+      "mean_target": 272670.3,
+      "total_target": "2181362265"
+    },
+    {
+      "date": "2025-09-06",
+      "n_rows": 8000,
+      "mean_target": 294214.2,
+      "total_target": "2353713668"
+    },
+    {
+      "date": "2025-09-13",
+      "n_rows": 8000,
+      "mean_target": 290011.4,
+      "total_target": "2320091558"
+    },
+    {
+      "date": "2025-09-20",
+      "n_rows": 8000,
+      "mean_target": 287554.1,
+      "total_target": "2300432800"
+    },
+    {
+      "date": "2025-09-27",
+      "n_rows": 8000,
+      "mean_target": 299736.0,
+      "total_target": "2397887860"
+    },
+    {
+      "date": "2025-10-04",
+      "n_rows": 8000,
+      "mean_target": 296932.1,
+      "total_target": "2375457032"
+    },
+    {
+      "date": "2025-10-11",
+      "n_rows": 8000,
+      "mean_target": 276121.3,
+      "total_target": "2208970074"
+    },
+    {
+      "date": "2025-10-18",
+      "n_rows": 8000,
+      "mean_target": 284516.5,
+      "total_target": "2276132113"
+    },
+    {
+      "date": "2025-10-25",
+      "n_rows": 8000,
+      "mean_target": 289586.7,
+      "total_target": "2316693246"
+    }
+  ],
+  "saturday_cv_results": [
+    {
+      "date": "2025-08-02",
+      "val_mean_target": 226056.2,
+      "route_mean_metric": {
+        "wape": 0.365123,
+        "rbias": 0.048107,
+        "total": 0.41323
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.49143,
+        "rbias": 0.048107,
+        "total": 0.539537
+      }
+    },
+    {
+      "date": "2025-08-09",
+      "val_mean_target": 231101.0,
+      "route_mean_metric": {
+        "wape": 0.363568,
+        "rbias": 0.056083,
+        "total": 0.419651
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.454236,
+        "rbias": 0.021829,
+        "total": 0.476065
+      }
+    },
+    {
+      "date": "2025-08-16",
+      "val_mean_target": 235334.6,
+      "route_mean_metric": {
+        "wape": 0.368165,
+        "rbias": 0.052511,
+        "total": 0.420676
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.411493,
+        "rbias": 0.028708,
+        "total": 0.440201
+      }
+    },
+    {
+      "date": "2025-08-23",
+      "val_mean_target": 240140.1,
+      "route_mean_metric": {
+        "wape": 0.356697,
+        "rbias": 0.053793,
+        "total": 0.41049
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.392168,
+        "rbias": 0.038767,
+        "total": 0.430935
+      }
+    },
+    {
+      "date": "2025-08-30",
+      "val_mean_target": 272670.3,
+      "route_mean_metric": {
+        "wape": 0.349327,
+        "rbias": 0.152172,
+        "total": 0.501499
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.370291,
+        "rbias": 0.144909,
+        "total": 0.5152
+      }
+    },
+    {
+      "date": "2025-09-06",
+      "val_mean_target": 294214.2,
+      "route_mean_metric": {
+        "wape": 0.356828,
+        "rbias": 0.194993,
+        "total": 0.551821
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.373145,
+        "rbias": 0.180664,
+        "total": 0.553808
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "val_mean_target": 290011.4,
+      "route_mean_metric": {
+        "wape": 0.349557,
+        "rbias": 0.162051,
+        "total": 0.511608
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.35732,
+        "rbias": 0.138243,
+        "total": 0.495563
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "val_mean_target": 287554.1,
+      "route_mean_metric": {
+        "wape": 0.350615,
+        "rbias": 0.13743,
+        "total": 0.488045
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.359509,
+        "rbias": 0.110961,
+        "total": 0.47047
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "val_mean_target": 299736.0,
+      "route_mean_metric": {
+        "wape": 0.355255,
+        "rbias": 0.160785,
+        "total": 0.51604
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.359594,
+        "rbias": 0.133787,
+        "total": 0.493381
+      }
+    },
+    {
+      "date": "2025-10-04",
+      "val_mean_target": 296932.1,
+      "route_mean_metric": {
+        "wape": 0.361421,
+        "rbias": 0.140417,
+        "total": 0.501838
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.368012,
+        "rbias": 0.110602,
+        "total": 0.478614
+      }
+    },
+    {
+      "date": "2025-10-11",
+      "val_mean_target": 276121.3,
+      "route_mean_metric": {
+        "wape": 0.368256,
+        "rbias": 0.067253,
+        "total": 0.435509
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.376606,
+        "rbias": 0.031675,
+        "total": 0.408281
+      }
+    },
+    {
+      "date": "2025-10-18",
+      "val_mean_target": 284516.5,
+      "route_mean_metric": {
+        "wape": 0.356679,
+        "rbias": 0.0903,
+        "total": 0.446978
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.364828,
+        "rbias": 0.057453,
+        "total": 0.422281
+      }
+    },
+    {
+      "date": "2025-10-25",
+      "val_mean_target": 289586.7,
+      "route_mean_metric": {
+        "wape": 0.353602,
+        "rbias": 0.10121,
+        "total": 0.454812
+      },
+      "route_dow_hour_metric": {
+        "wape": 0.361584,
+        "rbias": 0.069252,
+        "total": 0.430836
+      }
+    }
+  ],
+  "validation_comparison": {
+    "approach_a_last8": {
+      "val_timestamps": [
+        "2025-11-01 07:00:00",
+        "2025-11-01 07:30:00",
+        "2025-11-01 08:00:00",
+        "2025-11-01 08:30:00",
+        "2025-11-01 09:00:00",
+        "2025-11-01 09:30:00",
+        "2025-11-01 10:00:00",
+        "2025-11-01 10:30:00"
+      ],
+      "val_dow": 5,
+      "val_hours": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "val_mean_target": 260946.8,
+      "val_size": 8000
+    },
+    "approach_b_last_saturday": {
+      "val_date": "2025-10-25",
+      "val_dow": 5,
+      "val_hours": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "val_mean_target": 289586.7,
+      "val_size": 8000
+    }
+  },
+  "metric_stability": {
+    "folds": [
+      {
+        "offset_days": 0,
+        "val_ts_start": "2025-11-01 07:00:00",
+        "val_dow": 5,
+        "metric": {
+          "wape": 0.380704,
+          "rbias": 0.001134,
+          "total": 0.381837
+        }
+      },
+      {
+        "offset_days": 1,
+        "val_ts_start": "2025-10-31 07:00:00",
+        "val_dow": 4,
+        "metric": {
+          "wape": 0.377576,
+          "rbias": 0.00089,
+          "total": 0.378466
+        }
+      },
+      {
+        "offset_days": 2,
+        "val_ts_start": "2025-10-30 07:00:00",
+        "val_dow": 3,
+        "metric": {
+          "wape": 0.367509,
+          "rbias": 0.038442,
+          "total": 0.405951
+        }
+      },
+      {
+        "offset_days": 3,
+        "val_ts_start": "2025-10-29 07:00:00",
+        "val_dow": 2,
+        "metric": {
+          "wape": 0.379562,
+          "rbias": 0.049606,
+          "total": 0.429168
+        }
+      },
+      {
+        "offset_days": 7,
+        "val_ts_start": "2025-10-25 07:00:00",
+        "val_dow": 5,
+        "metric": {
+          "wape": 0.360745,
+          "rbias": 0.047833,
+          "total": 0.408579
+        }
+      },
+      {
+        "offset_days": 14,
+        "val_ts_start": "2025-10-18 07:00:00",
+        "val_dow": 5,
+        "metric": {
+          "wape": 0.382043,
+          "rbias": 0.006807,
+          "total": 0.38885
+        }
+      }
+    ],
+    "total_std": 0.01765,
+    "total_range": 0.050702
+  },
+  "recommendation": {
+    "primary_validation": "Last Saturday matching window (same DOW + hours as test)",
+    "secondary_validation": "Multiple historical Saturday windows for robustness",
+    "tertiary_validation": "Last 8 timestamps as additional check",
+    "rationale": "Test is Saturday 11-14:30. Using matching DOW+hour windows gives the most realistic proxy. Multiple Saturday folds increase confidence. Generic last-8 gives temporal recency but wrong DOW/hour context."
+  }
+}

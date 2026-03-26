@@ -1,0 +1,80 @@
+{
+  "test_window": {
+    "timestamps": [
+      "2025-11-01 11:00:00",
+      "2025-11-01 11:30:00",
+      "2025-11-01 12:00:00",
+      "2025-11-01 12:30:00",
+      "2025-11-01 13:00:00",
+      "2025-11-01 13:30:00",
+      "2025-11-01 14:00:00",
+      "2025-11-01 14:30:00"
+    ],
+    "dow": "Sat",
+    "dow_num": 5,
+    "hours": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "half_hours": [
+      11.0,
+      11.5,
+      12.0,
+      12.5,
+      13.0,
+      13.5,
+      14.0,
+      14.5
+    ]
+  },
+  "saturday_midday_vs_weekday": {
+    "saturday_mean": 271075.0,
+    "weekday_mean": 275113.2,
+    "sunday_mean": 263775.7,
+    "sat_vs_weekday_ratio": 0.9853,
+    "sat_vs_sun_ratio": 1.0277,
+    "saturday_median": 245627.5,
+    "weekday_median": 248513.0,
+    "saturday_std": 170170.1,
+    "weekday_std": 180949.5,
+    "saturday_count": 104000,
+    "weekday_count": 560000
+  },
+  "recent_1w_sat_midday": {
+    "mean": 289586.7,
+    "count": 8000,
+    "ratio_to_all_sat": 1.0683
+  },
+  "recent_2w_sat_midday": {
+    "mean": 287051.6,
+    "count": 16000,
+    "ratio_to_all_sat": 1.0589
+  },
+  "recent_4w_sat_midday": {
+    "mean": 286789.1,
+    "count": 32000,
+    "ratio_to_all_sat": 1.058
+  },
+  "recent_8w_sat_midday": {
+    "mean": 289834.0,
+    "count": 64000,
+    "ratio_to_all_sat": 1.0692
+  },
+  "route_sat_weekday_ratio": {
+    "mean": 0.9862,
+    "median": 0.9878,
+    "std": 0.0611,
+    "min": 0.4604,
+    "max": 1.2099,
+    "pct_sat_higher": 41.1
+  },
+  "end_of_train_drift": {
+    "last_3d_mean": 274635.0,
+    "last_14d_mean": 275183.5,
+    "overall_mean": 261242.1,
+    "last_3d_vs_14d_ratio": 0.998,
+    "last_3d_vs_overall_ratio": 1.0513
+  }
+}
