@@ -1,0 +1,446 @@
+{
+  "multi_fold_comparison": {
+    "global_mean": {
+      "mean_total": 0.525978,
+      "std_total": 0.017692,
+      "mean_wape": 0.498179,
+      "mean_rbias": 0.027799,
+      "min_total": 0.499685,
+      "max_total": 0.546282,
+      "per_fold": [
+        {
+          "wape": 0.510668,
+          "rbias": 0.001134,
+          "total": 0.511802
+        },
+        {
+          "wape": 0.498796,
+          "rbias": 0.00089,
+          "total": 0.499685
+        },
+        {
+          "wape": 0.492273,
+          "rbias": 0.038442,
+          "total": 0.530714
+        },
+        {
+          "wape": 0.496676,
+          "rbias": 0.049606,
+          "total": 0.546282
+        },
+        {
+          "wape": 0.492482,
+          "rbias": 0.048924,
+          "total": 0.541406
+        }
+      ]
+    },
+    "route_mean_all": {
+      "mean_total": 0.402533,
+      "std_total": 0.019723,
+      "mean_wape": 0.374734,
+      "mean_rbias": 0.027799,
+      "min_total": 0.378466,
+      "max_total": 0.429168,
+      "per_fold": [
+        {
+          "wape": 0.380704,
+          "rbias": 0.001134,
+          "total": 0.381837
+        },
+        {
+          "wape": 0.377576,
+          "rbias": 0.00089,
+          "total": 0.378466
+        },
+        {
+          "wape": 0.367509,
+          "rbias": 0.038442,
+          "total": 0.405951
+        },
+        {
+          "wape": 0.379562,
+          "rbias": 0.049606,
+          "total": 0.429168
+        },
+        {
+          "wape": 0.368317,
+          "rbias": 0.048924,
+          "total": 0.417241
+        }
+      ]
+    },
+    "route_mean_7d": {
+      "mean_total": 0.394825,
+      "std_total": 0.019974,
+      "mean_wape": 0.365086,
+      "mean_rbias": 0.029739,
+      "min_total": 0.375355,
+      "max_total": 0.423857,
+      "per_fold": [
+        {
+          "wape": 0.368758,
+          "rbias": 0.045103,
+          "total": 0.413861
+        },
+        {
+          "wape": 0.371179,
+          "rbias": 0.052678,
+          "total": 0.423857
+        },
+        {
+          "wape": 0.35645,
+          "rbias": 0.0232,
+          "total": 0.379651
+        },
+        {
+          "wape": 0.368563,
+          "rbias": 0.012838,
+          "total": 0.381401
+        },
+        {
+          "wape": 0.360478,
+          "rbias": 0.014877,
+          "total": 0.375355
+        }
+      ]
+    },
+    "route_mean_14d": {
+      "mean_total": 0.39333,
+      "std_total": 0.027283,
+      "mean_wape": 0.366495,
+      "mean_rbias": 0.026835,
+      "min_total": 0.367178,
+      "max_total": 0.42671,
+      "per_fold": [
+        {
+          "wape": 0.372165,
+          "rbias": 0.054544,
+          "total": 0.42671
+        },
+        {
+          "wape": 0.37253,
+          "rbias": 0.054026,
+          "total": 0.426556
+        },
+        {
+          "wape": 0.357118,
+          "rbias": 0.015152,
+          "total": 0.37227
+        },
+        {
+          "wape": 0.369799,
+          "rbias": 0.004138,
+          "total": 0.373937
+        },
+        {
+          "wape": 0.360863,
+          "rbias": 0.006315,
+          "total": 0.367178
+        }
+      ]
+    },
+    "route_hour_mean": {
+      "mean_total": 0.423267,
+      "std_total": 0.021308,
+      "mean_wape": 0.366074,
+      "mean_rbias": 0.057193,
+      "min_total": 0.396216,
+      "max_total": 0.449856,
+      "per_fold": [
+        {
+          "wape": 0.371277,
+          "rbias": 0.029406,
+          "total": 0.400683
+        },
+        {
+          "wape": 0.364819,
+          "rbias": 0.031397,
+          "total": 0.396216
+        },
+        {
+          "wape": 0.361656,
+          "rbias": 0.067851,
+          "total": 0.429507
+        },
+        {
+          "wape": 0.371008,
+          "rbias": 0.078848,
+          "total": 0.449856
+        },
+        {
+          "wape": 0.361609,
+          "rbias": 0.078463,
+          "total": 0.440072
+        }
+      ]
+    },
+    "route_same_dow": {
+      "mean_total": 0.396705,
+      "std_total": 0.014188,
+      "mean_wape": 0.376026,
+      "mean_rbias": 0.02068,
+      "min_total": 0.383651,
+      "max_total": 0.418314,
+      "per_fold": [
+        {
+          "wape": 0.381574,
+          "rbias": 0.002077,
+          "total": 0.383651
+        },
+        {
+          "wape": 0.378702,
+          "rbias": 0.010215,
+          "total": 0.388917
+        },
+        {
+          "wape": 0.368842,
+          "rbias": 0.015065,
+          "total": 0.383908
+        },
+        {
+          "wape": 0.381537,
+          "rbias": 0.0272,
+          "total": 0.408736
+        },
+        {
+          "wape": 0.369474,
+          "rbias": 0.048841,
+          "total": 0.418314
+        }
+      ]
+    },
+    "route_dow_hour_mean": {
+      "mean_total": 0.42002,
+      "std_total": 0.018802,
+      "mean_wape": 0.374929,
+      "mean_rbias": 0.045092,
+      "min_total": 0.394033,
+      "max_total": 0.448225,
+      "per_fold": [
+        {
+          "wape": 0.37812,
+          "rbias": 0.031056,
+          "total": 0.409176
+        },
+        {
+          "wape": 0.376354,
+          "rbias": 0.017679,
+          "total": 0.394033
+        },
+        {
+          "wape": 0.369926,
+          "rbias": 0.045983,
+          "total": 0.415908
+        },
+        {
+          "wape": 0.380686,
+          "rbias": 0.052073,
+          "total": 0.432759
+        },
+        {
+          "wape": 0.369558,
+          "rbias": 0.078667,
+          "total": 0.448225
+        }
+      ]
+    },
+    "route_recent_dow_28d": {
+      "mean_total": 0.419093,
+      "std_total": 0.020619,
+      "mean_wape": 0.373065,
+      "mean_rbias": 0.046028,
+      "min_total": 0.392269,
+      "max_total": 0.454803,
+      "per_fold": [
+        {
+          "wape": 0.376289,
+          "rbias": 0.047397,
+          "total": 0.423686
+        },
+        {
+          "wape": 0.380449,
+          "rbias": 0.074354,
+          "total": 0.454803
+        },
+        {
+          "wape": 0.365589,
+          "rbias": 0.049853,
+          "total": 0.415442
+        },
+        {
+          "wape": 0.377034,
+          "rbias": 0.032232,
+          "total": 0.409266
+        },
+        {
+          "wape": 0.365966,
+          "rbias": 0.026302,
+          "total": 0.392269
+        }
+      ]
+    },
+    "blend_route14d_dowhour": {
+      "mean_total": 0.38229,
+      "std_total": 0.008232,
+      "mean_wape": 0.361195,
+      "mean_rbias": 0.021095,
+      "min_total": 0.369801,
+      "max_total": 0.391779,
+      "per_fold": [
+        {
+          "wape": 0.365202,
+          "rbias": 0.011744,
+          "total": 0.376946
+        },
+        {
+          "wape": 0.364452,
+          "rbias": 0.018173,
+          "total": 0.382625
+        },
+        {
+          "wape": 0.354386,
+          "rbias": 0.015415,
+          "total": 0.369801
+        },
+        {
+          "wape": 0.36633,
+          "rbias": 0.023967,
+          "total": 0.390298
+        },
+        {
+          "wape": 0.355603,
+          "rbias": 0.036176,
+          "total": 0.391779
+        }
+      ]
+    },
+    "recency_weighted_route": {
+      "mean_total": 0.396282,
+      "std_total": 0.028266,
+      "mean_wape": 0.367521,
+      "mean_rbias": 0.028761,
+      "min_total": 0.367935,
+      "max_total": 0.430781,
+      "per_fold": [
+        {
+          "wape": 0.373806,
+          "rbias": 0.056833,
+          "total": 0.430639
+        },
+        {
+          "wape": 0.37379,
+          "rbias": 0.056991,
+          "total": 0.430781
+        },
+        {
+          "wape": 0.358322,
+          "rbias": 0.017337,
+          "total": 0.375659
+        },
+        {
+          "wape": 0.370795,
+          "rbias": 0.005601,
+          "total": 0.376396
+        },
+        {
+          "wape": 0.360893,
+          "rbias": 0.007042,
+          "total": 0.367935
+        }
+      ]
+    },
+    "profile_x_scale": {
+      "mean_total": 0.381221,
+      "std_total": 0.012786,
+      "mean_wape": 0.363423,
+      "mean_rbias": 0.017798,
+      "min_total": 0.363275,
+      "max_total": 0.400765,
+      "per_fold": [
+        {
+          "wape": 0.366394,
+          "rbias": 0.019096,
+          "total": 0.38549
+        },
+        {
+          "wape": 0.367567,
+          "rbias": 0.033198,
+          "total": 0.400765
+        },
+        {
+          "wape": 0.355247,
+          "rbias": 0.008028,
+          "total": 0.363275
+        },
+        {
+          "wape": 0.368231,
+          "rbias": 0.003813,
+          "total": 0.372044
+        },
+        {
+          "wape": 0.359676,
+          "rbias": 0.024854,
+          "total": 0.38453
+        }
+      ]
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "strategy": "profile_x_scale",
+      "mean_total": 0.381221
+    },
+    {
+      "rank": 2,
+      "strategy": "blend_route14d_dowhour",
+      "mean_total": 0.38229
+    },
+    {
+      "rank": 3,
+      "strategy": "route_mean_14d",
+      "mean_total": 0.39333
+    },
+    {
+      "rank": 4,
+      "strategy": "route_mean_7d",
+      "mean_total": 0.394825
+    },
+    {
+      "rank": 5,
+      "strategy": "recency_weighted_route",
+      "mean_total": 0.396282
+    },
+    {
+      "rank": 6,
+      "strategy": "route_same_dow",
+      "mean_total": 0.396705
+    },
+    {
+      "rank": 7,
+      "strategy": "route_mean_all",
+      "mean_total": 0.402533
+    },
+    {
+      "rank": 8,
+      "strategy": "route_recent_dow_28d",
+      "mean_total": 0.419093
+    },
+    {
+      "rank": 9,
+      "strategy": "route_dow_hour_mean",
+      "mean_total": 0.42002
+    },
+    {
+      "rank": 10,
+      "strategy": "route_hour_mean",
+      "mean_total": 0.423267
+    },
+    {
+      "rank": 11,
+      "strategy": "global_mean",
+      "mean_total": 0.525978
+    }
+  ]
+}

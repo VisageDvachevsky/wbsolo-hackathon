@@ -1,0 +1,170 @@
+{
+  "global_correlations": {
+    "status_1": 0.4876,
+    "status_2": 0.5065,
+    "status_3": 0.4509,
+    "status_4": 0.4312,
+    "status_5": 0.3697,
+    "status_6": 0.1045
+  },
+  "within_route_correlations": {
+    "status_1": {
+      "mean": 0.0814,
+      "median": 0.0691,
+      "std": 0.0709
+    },
+    "status_2": {
+      "mean": 0.0922,
+      "median": 0.0826,
+      "std": 0.084
+    },
+    "status_3": {
+      "mean": 0.2352,
+      "median": 0.234,
+      "std": 0.0635
+    },
+    "status_4": {
+      "mean": 0.1278,
+      "median": 0.126,
+      "std": 0.0837
+    },
+    "status_5": {
+      "mean": 0.141,
+      "median": 0.1456,
+      "std": 0.0929
+    },
+    "status_6": {
+      "mean": 0.0452,
+      "median": 0.052,
+      "std": 0.0937
+    }
+  },
+  "scale_vs_genuine": {
+    "status_1": {
+      "global": 0.4876,
+      "within_route": 0.0814,
+      "scale_driven_component": 0.4062,
+      "interpretation": "mostly scale-driven"
+    },
+    "status_2": {
+      "global": 0.5065,
+      "within_route": 0.0922,
+      "scale_driven_component": 0.4143,
+      "interpretation": "mostly scale-driven"
+    },
+    "status_3": {
+      "global": 0.4509,
+      "within_route": 0.2352,
+      "scale_driven_component": 0.2157,
+      "interpretation": "mostly scale-driven"
+    },
+    "status_4": {
+      "global": 0.4312,
+      "within_route": 0.1278,
+      "scale_driven_component": 0.3034,
+      "interpretation": "mostly scale-driven"
+    },
+    "status_5": {
+      "global": 0.3697,
+      "within_route": 0.141,
+      "scale_driven_component": 0.2287,
+      "interpretation": "mostly scale-driven"
+    },
+    "status_6": {
+      "global": 0.1045,
+      "within_route": 0.0452,
+      "scale_driven_component": 0.0593,
+      "interpretation": "partly genuine"
+    }
+  },
+  "lagged_status_target": {
+    "status_1": {
+      "lead_1_steps": 0.0955,
+      "lead_2_steps": 0.1369,
+      "lead_4_steps": 0.1827,
+      "lead_8_steps": 0.1182,
+      "lead_16_steps": 0.0898
+    },
+    "status_2": {
+      "lead_1_steps": 0.1392,
+      "lead_2_steps": 0.2508,
+      "lead_4_steps": 0.2035,
+      "lead_8_steps": 0.1084,
+      "lead_16_steps": 0.0792
+    },
+    "status_3": {
+      "lead_1_steps": 0.4076,
+      "lead_2_steps": 0.1635,
+      "lead_4_steps": 0.0219,
+      "lead_8_steps": 0.0495,
+      "lead_16_steps": 0.0414
+    },
+    "status_4": {
+      "lead_1_steps": 0.1307,
+      "lead_2_steps": 0.1313,
+      "lead_4_steps": 0.1256,
+      "lead_8_steps": 0.1233,
+      "lead_16_steps": 0.1279
+    },
+    "status_5": {
+      "lead_1_steps": 0.1471,
+      "lead_2_steps": 0.151,
+      "lead_4_steps": 0.1515,
+      "lead_8_steps": 0.1524,
+      "lead_16_steps": 0.1555
+    },
+    "status_6": {
+      "lead_1_steps": 0.0459,
+      "lead_2_steps": 0.0458,
+      "lead_4_steps": 0.0467,
+      "lead_8_steps": 0.046,
+      "lead_16_steps": 0.0474
+    }
+  },
+  "route_descriptor_correlations": {
+    "status_1": 0.9554,
+    "status_2": 0.9593,
+    "status_3": 0.9593,
+    "status_4": 0.7282,
+    "status_5": 0.6144,
+    "status_6": 0.189
+  },
+  "route_cv_correlations": {
+    "status_1": 0.7042,
+    "status_2": 0.799,
+    "status_3": 0.8562,
+    "status_4": 0.2986,
+    "status_5": 0.1663,
+    "status_6": 0.0211
+  },
+  "leading_indicator_status_1": {
+    "concurrent_within_route": 0.0795,
+    "lead_1step_within_route": 0.1073,
+    "is_leading": "True"
+  },
+  "leading_indicator_status_2": {
+    "concurrent_within_route": 0.0984,
+    "lead_1step_within_route": 0.158,
+    "is_leading": "True"
+  },
+  "leading_indicator_status_3": {
+    "concurrent_within_route": 0.2392,
+    "lead_1step_within_route": 0.4121,
+    "is_leading": "True"
+  },
+  "leading_indicator_status_4": {
+    "concurrent_within_route": 0.1434,
+    "lead_1step_within_route": 0.1454,
+    "is_leading": "True"
+  },
+  "leading_indicator_status_5": {
+    "concurrent_within_route": 0.1571,
+    "lead_1step_within_route": 0.1607,
+    "is_leading": "True"
+  },
+  "leading_indicator_status_6": {
+    "concurrent_within_route": 0.0427,
+    "lead_1step_within_route": 0.0426,
+    "is_leading": "False"
+  }
+}
