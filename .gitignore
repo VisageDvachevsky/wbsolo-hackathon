@@ -1,0 +1,19 @@
+__pycache__/
+.ipynb_checkpoints/
+.python-version
+.venv/
+venv/
+
+artifacts/
+reports/tmp/
+
+*.log
+*.tmp
+*.bak
+*.db
+
+# Keep the raw competition data local but out of git history.
+*.parquet
+
+# Submission exports can be large and frequently regenerated.
+submissions/*.csv
