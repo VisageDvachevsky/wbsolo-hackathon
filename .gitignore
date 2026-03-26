@@ -12,8 +12,5 @@ reports/tmp/
 *.bak
 *.db
 
-# Keep the raw competition data local but out of git history.
-*.parquet
-
 # Submission exports can be large and frequently regenerated.
 submissions/*.csv
