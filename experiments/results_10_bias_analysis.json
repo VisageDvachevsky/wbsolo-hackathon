@@ -1,0 +1,183 @@
+{
+  "strategy_metrics": {
+    "global_mean": {
+      "wape": 0.510668,
+      "rbias": 0.001134,
+      "rbias_signed": 0.001134,
+      "total": 0.511802
+    },
+    "route_mean_all": {
+      "wape": 0.380704,
+      "rbias": 0.001134,
+      "rbias_signed": 0.001134,
+      "total": 0.381837
+    },
+    "route_mean_7d": {
+      "wape": 0.368758,
+      "rbias": 0.045103,
+      "rbias_signed": 0.045103,
+      "total": 0.413861
+    },
+    "route_mean_14d": {
+      "wape": 0.372165,
+      "rbias": 0.054544,
+      "rbias_signed": 0.054544,
+      "total": 0.42671
+    },
+    "route_hour_mean": {
+      "wape": 0.371277,
+      "rbias": 0.029406,
+      "rbias_signed": -0.029406,
+      "total": 0.400683
+    },
+    "route_same_dow": {
+      "wape": 0.381574,
+      "rbias": 0.002077,
+      "rbias_signed": -0.002077,
+      "total": 0.383651
+    },
+    "route_dow_hour_mean": {
+      "wape": 0.37812,
+      "rbias": 0.031056,
+      "rbias_signed": -0.031056,
+      "total": 0.409176
+    },
+    "route_recent_dow_28d": {
+      "wape": 0.376289,
+      "rbias": 0.047397,
+      "rbias_signed": 0.047397,
+      "total": 0.423686
+    },
+    "blend_14d_dow": {
+      "wape": 0.372863,
+      "rbias": 0.026234,
+      "rbias_signed": 0.026234,
+      "total": 0.399097
+    }
+  },
+  "bias_direction": {
+    "global_mean": {
+      "direction": "over",
+      "magnitude": 0.001134
+    },
+    "route_mean_all": {
+      "direction": "over",
+      "magnitude": 0.001134
+    },
+    "route_mean_7d": {
+      "direction": "over",
+      "magnitude": 0.045103
+    },
+    "route_mean_14d": {
+      "direction": "over",
+      "magnitude": 0.054544
+    },
+    "route_hour_mean": {
+      "direction": "under",
+      "magnitude": -0.029406
+    },
+    "route_same_dow": {
+      "direction": "under",
+      "magnitude": -0.002077
+    },
+    "route_dow_hour_mean": {
+      "direction": "under",
+      "magnitude": -0.031056
+    },
+    "route_recent_dow_28d": {
+      "direction": "over",
+      "magnitude": 0.047397
+    },
+    "blend_14d_dow": {
+      "direction": "over",
+      "magnitude": 0.026234
+    }
+  },
+  "aggregate_volume": {
+    "actual_val_total": 2087574257.0,
+    "global_mean_predicted_ratio": 1.0011,
+    "route_mean_all_predicted_ratio": 1.0011,
+    "route_mean_7d_predicted_ratio": 1.0451,
+    "route_mean_14d_predicted_ratio": 1.0545,
+    "route_hour_mean_predicted_ratio": 0.9706,
+    "route_same_dow_predicted_ratio": 0.9979,
+    "route_dow_hour_mean_predicted_ratio": 0.9689,
+    "route_recent_dow_28d_predicted_ratio": 1.0474,
+    "blend_14d_dow_predicted_ratio": 1.0262
+  },
+  "bias_corrected": {
+    "route_mean_all": {
+      "original": {
+        "wape": 0.380704,
+        "rbias": 0.001134,
+        "rbias_signed": 0.001134,
+        "total": 0.381837
+      },
+      "corrected": {
+        "wape": 0.380621,
+        "rbias": 0.0,
+        "rbias_signed": 0.0,
+        "total": 0.380621
+      },
+      "correction_factor": 0.9989,
+      "improvement": 0.0012
+    },
+    "route_mean_14d": {
+      "original": {
+        "wape": 0.372165,
+        "rbias": 0.054544,
+        "rbias_signed": 0.054544,
+        "total": 0.42671
+      },
+      "corrected": {
+        "wape": 0.365863,
+        "rbias": 0.0,
+        "rbias_signed": 0.0,
+        "total": 0.365863
+      },
+      "correction_factor": 0.9483,
+      "improvement": 0.0608
+    },
+    "route_hour_mean": {
+      "original": {
+        "wape": 0.371277,
+        "rbias": 0.029406,
+        "rbias_signed": -0.029406,
+        "total": 0.400683
+      },
+      "corrected": {
+        "wape": 0.372707,
+        "rbias": 0.0,
+        "rbias_signed": 0.0,
+        "total": 0.372707
+      },
+      "correction_factor": 1.0303,
+      "improvement": 0.028
+    },
+    "route_dow_hour_mean": {
+      "original": {
+        "wape": 0.37812,
+        "rbias": 0.031056,
+        "rbias_signed": -0.031056,
+        "total": 0.409176
+      },
+      "corrected": {
+        "wape": 0.379894,
+        "rbias": 0.0,
+        "rbias_signed": 0.0,
+        "total": 0.379894
+      },
+      "correction_factor": 1.0321,
+      "improvement": 0.0293
+    }
+  },
+  "best_strategy": {
+    "name": "route_mean_all",
+    "metrics": {
+      "wape": 0.380704,
+      "rbias": 0.001134,
+      "rbias_signed": 0.001134,
+      "total": 0.381837
+    }
+  }
+}

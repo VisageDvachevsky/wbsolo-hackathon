@@ -1,0 +1,148 @@
+{
+  "weekly_mean": {
+    "31": 214225.0,
+    "32": 222646.5,
+    "33": 234225.6,
+    "34": 239520.8,
+    "35": 252576.9,
+    "36": 269751.6,
+    "37": 276441.2,
+    "38": 282647.3,
+    "39": 280388.1,
+    "40": 288148.0,
+    "41": 274720.5,
+    "42": 273272.0,
+    "43": 278126.6,
+    "44": 273371.0
+  },
+  "weekly_std": {
+    "31": 140766.0,
+    "32": 143407.5,
+    "33": 146748.1,
+    "34": 148523.0,
+    "35": 155904.6,
+    "36": 165843.5,
+    "37": 171362.0,
+    "38": 175228.3,
+    "39": 179815.1,
+    "40": 183425.8,
+    "41": 181349.5,
+    "42": 180464.6,
+    "43": 183129.6,
+    "44": 181082.9
+  },
+  "weekly_median": {
+    "31": 193228.0,
+    "32": 202386.5,
+    "33": 213319.5,
+    "34": 218832.0,
+    "35": 230630.0,
+    "36": 246050.5,
+    "37": 251926.0,
+    "38": 257084.5,
+    "39": 254056.5,
+    "40": 261325.0,
+    "41": 247048.0,
+    "42": 246874.0,
+    "43": 251544.0,
+    "44": 247445.0
+  },
+  "global_trend_slope_per_week": 4819.7,
+  "global_trend_pct_change_over_period": 27.61,
+  "route_trend_stats": {
+    "mean": 4819.7,
+    "median": 4397.53,
+    "std": 6298.06,
+    "min": -15981.48,
+    "max": 126677.38,
+    "pct_positive": 84.7,
+    "pct_strong_positive": 84.3
+  },
+  "distribution": {
+    "mean": 261242.1,
+    "median": 235769.0,
+    "std": 169082.6,
+    "skewness": 2.279,
+    "kurtosis": 43.055,
+    "cv": 0.6472,
+    "iqr": 216185.0,
+    "pct_zeros": 1.51
+  },
+  "route_segments": {
+    "low_volume": {
+      "count": 250,
+      "mean_cv": 0.6604,
+      "mean_target": 131159.2,
+      "mean_zero_frac": 0.0503
+    },
+    "mid_volume": {
+      "count": 500,
+      "mean_cv": 0.4869,
+      "mean_target": 256337.4,
+      "mean_zero_frac": 0.0049
+    },
+    "high_volume": {
+      "count": 250,
+      "mean_cv": 0.411,
+      "mean_target": 401134.4,
+      "mean_zero_frac": 0.0003
+    }
+  },
+  "autocorrelation": {
+    "30min_lag1": {
+      "mean": 0.4454,
+      "median": 0.4398,
+      "std": 0.0455,
+      "min": 0.3494,
+      "max": 0.6054
+    },
+    "1h_lag2": {
+      "mean": -0.0759,
+      "median": -0.0839,
+      "std": 0.0805,
+      "min": -0.2201,
+      "max": 0.2352
+    },
+    "2h_lag4": {
+      "mean": 0.0269,
+      "median": 0.0186,
+      "std": 0.0693,
+      "min": -0.1431,
+      "max": 0.3004
+    },
+    "6h_lag12": {
+      "mean": 0.0659,
+      "median": 0.0613,
+      "std": 0.0626,
+      "min": -0.0728,
+      "max": 0.3001
+    },
+    "24h_lag48": {
+      "mean": 0.1476,
+      "median": 0.1304,
+      "std": 0.0572,
+      "min": 0.0437,
+      "max": 0.333
+    },
+    "7d_lag336": {
+      "mean": 0.1167,
+      "median": 0.1074,
+      "std": 0.0528,
+      "min": 0.0347,
+      "max": 0.3163
+    }
+  },
+  "smoothness_ratio_diff_var_over_var": 1.101,
+  "overlap_effect": {
+    "lag1_mean_ac": 0.4454,
+    "lag2_mean_ac": -0.0759,
+    "overlap_induced_ac": 0.5213,
+    "interpretation": "lag-1 AC is mechanically inflated by 30-min overlap in 1h windows"
+  },
+  "summary": {
+    "process_type": "moderately smooth process",
+    "lag_heavy_approach_useful": "True",
+    "route_specific_modeling_useful": true,
+    "global_trend_significant": true
+  }
+}
